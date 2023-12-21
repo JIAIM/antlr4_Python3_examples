@@ -5,7 +5,7 @@ from TovidParser import TovidParser
 
 # from https://github.com/antlr/antlr4/blob/master/runtime/Python3/bin/pygrun
 # this is a python version of TestRig
-def beautify_lisp_string(in_string):
+def format_tree(in_string):
     indent_size = 3
     add_indent = ' ' * indent_size
     out_string = in_string[0]  # no indent for 1st (
@@ -32,12 +32,12 @@ print()
 token_stream = CommonTokenStream(lexer)
 token_stream.fill()
 print('tokens:')
-for tk in token_stream.tokens:
-    print(tk)
+for token in token_stream.tokens:
+    print(token)
 print()
 
 parser = TovidParser(token_stream)
 tree = parser.program()
 print('tree:')
-lisp_tree_str = tree.toStringTree(recog=parser)
-print(beautify_lisp_string(lisp_tree_str))
+tree_str = tree.toStringTree(recog=parser)
+print(format_tree(tree_str))
