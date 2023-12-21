@@ -10,7 +10,7 @@ else:
 
 def serializedATN():
     return [
-        4,1,42,235,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
+        4,1,42,232,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
         6,2,7,7,7,2,8,7,8,2,9,7,9,2,10,7,10,2,11,7,11,2,12,7,12,2,13,7,13,
         2,14,7,14,2,15,7,15,2,16,7,16,2,17,7,17,2,18,7,18,2,19,7,19,2,20,
         7,20,2,21,7,21,2,22,7,22,2,23,7,23,2,24,7,24,2,25,7,25,1,0,5,0,54,
@@ -19,79 +19,78 @@ def serializedATN():
         8,3,10,3,12,3,86,9,3,1,4,1,4,1,4,1,5,1,5,1,6,3,6,94,8,6,1,6,3,6,
         97,8,6,1,6,1,6,1,6,1,6,1,6,3,6,104,8,6,1,6,3,6,107,8,6,1,7,1,7,1,
         7,3,7,112,8,7,1,8,1,8,1,8,1,8,1,8,5,8,119,8,8,10,8,12,8,122,9,8,
-        3,8,124,8,8,1,8,3,8,127,8,8,1,8,3,8,130,8,8,1,9,1,9,1,9,5,9,135,
-        8,9,10,9,12,9,138,9,9,1,9,1,9,1,10,1,10,1,10,1,10,1,10,3,10,147,
-        8,10,1,11,1,11,1,11,1,11,1,11,1,11,1,11,1,11,1,11,1,11,1,12,1,12,
-        3,12,161,8,12,1,13,1,13,5,13,165,8,13,10,13,12,13,168,9,13,1,13,
-        1,13,1,14,1,14,1,15,1,15,1,15,1,15,3,15,178,8,15,1,16,1,16,1,16,
-        1,16,5,16,184,8,16,10,16,12,16,187,9,16,1,17,1,17,1,17,3,17,192,
-        8,17,1,17,5,17,195,8,17,10,17,12,17,198,9,17,1,18,3,18,201,8,18,
-        1,18,1,18,1,18,1,18,1,18,1,18,1,18,1,18,1,18,3,18,212,8,18,1,19,
-        1,19,1,19,1,19,1,19,1,19,1,19,3,19,221,8,19,1,20,1,20,1,21,1,21,
-        1,22,1,22,1,23,1,23,1,24,1,24,1,25,1,25,1,25,1,111,0,26,0,2,4,6,
-        8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40,42,44,46,48,50,
-        0,6,1,0,5,8,1,0,9,10,1,0,23,24,1,0,25,26,1,0,27,32,1,0,33,34,244,
-        0,55,1,0,0,0,2,68,1,0,0,0,4,70,1,0,0,0,6,79,1,0,0,0,8,87,1,0,0,0,
-        10,90,1,0,0,0,12,106,1,0,0,0,14,108,1,0,0,0,16,129,1,0,0,0,18,131,
-        1,0,0,0,20,141,1,0,0,0,22,148,1,0,0,0,24,158,1,0,0,0,26,162,1,0,
-        0,0,28,171,1,0,0,0,30,177,1,0,0,0,32,179,1,0,0,0,34,188,1,0,0,0,
-        36,200,1,0,0,0,38,213,1,0,0,0,40,222,1,0,0,0,42,224,1,0,0,0,44,226,
-        1,0,0,0,46,228,1,0,0,0,48,230,1,0,0,0,50,232,1,0,0,0,52,54,3,2,1,
-        0,53,52,1,0,0,0,54,57,1,0,0,0,55,53,1,0,0,0,55,56,1,0,0,0,56,58,
-        1,0,0,0,57,55,1,0,0,0,58,59,5,0,0,1,59,1,1,0,0,0,60,69,3,4,2,0,61,
-        69,3,12,6,0,62,69,3,14,7,0,63,69,3,16,8,0,64,69,3,20,10,0,65,69,
-        3,22,11,0,66,69,3,24,12,0,67,69,3,18,9,0,68,60,1,0,0,0,68,61,1,0,
-        0,0,68,62,1,0,0,0,68,63,1,0,0,0,68,64,1,0,0,0,68,65,1,0,0,0,68,66,
-        1,0,0,0,68,67,1,0,0,0,69,3,1,0,0,0,70,71,5,1,0,0,71,72,5,39,0,0,
-        72,74,5,2,0,0,73,75,3,6,3,0,74,73,1,0,0,0,74,75,1,0,0,0,75,76,1,
-        0,0,0,76,77,5,3,0,0,77,78,3,26,13,0,78,5,1,0,0,0,79,84,3,8,4,0,80,
-        81,5,4,0,0,81,83,3,8,4,0,82,80,1,0,0,0,83,86,1,0,0,0,84,82,1,0,0,
-        0,84,85,1,0,0,0,85,7,1,0,0,0,86,84,1,0,0,0,87,88,3,10,5,0,88,89,
-        5,39,0,0,89,9,1,0,0,0,90,91,7,0,0,0,91,11,1,0,0,0,92,94,7,1,0,0,
-        93,92,1,0,0,0,93,94,1,0,0,0,94,96,1,0,0,0,95,97,3,10,5,0,96,95,1,
-        0,0,0,96,97,1,0,0,0,97,98,1,0,0,0,98,103,5,39,0,0,99,100,5,11,0,
-        0,100,104,3,28,14,0,101,102,5,12,0,0,102,104,3,28,14,0,103,99,1,
-        0,0,0,103,101,1,0,0,0,103,104,1,0,0,0,104,107,1,0,0,0,105,107,3,
-        38,19,0,106,93,1,0,0,0,106,105,1,0,0,0,107,13,1,0,0,0,108,111,5,
-        39,0,0,109,110,5,11,0,0,110,112,3,28,14,0,111,112,1,0,0,0,111,109,
-        1,0,0,0,112,15,1,0,0,0,113,114,5,13,0,0,114,123,5,2,0,0,115,120,
-        3,28,14,0,116,117,5,4,0,0,117,119,3,28,14,0,118,116,1,0,0,0,119,
-        122,1,0,0,0,120,118,1,0,0,0,120,121,1,0,0,0,121,124,1,0,0,0,122,
-        120,1,0,0,0,123,115,1,0,0,0,123,124,1,0,0,0,124,130,1,0,0,0,125,
-        127,5,39,0,0,126,125,1,0,0,0,126,127,1,0,0,0,127,128,1,0,0,0,128,
-        130,5,3,0,0,129,113,1,0,0,0,129,126,1,0,0,0,130,17,1,0,0,0,131,132,
-        5,14,0,0,132,136,5,2,0,0,133,135,5,39,0,0,134,133,1,0,0,0,135,138,
-        1,0,0,0,136,134,1,0,0,0,136,137,1,0,0,0,137,139,1,0,0,0,138,136,
-        1,0,0,0,139,140,5,3,0,0,140,19,1,0,0,0,141,142,5,15,0,0,142,143,
-        3,38,19,0,143,146,3,26,13,0,144,145,5,16,0,0,145,147,3,26,13,0,146,
-        144,1,0,0,0,146,147,1,0,0,0,147,21,1,0,0,0,148,149,5,17,0,0,149,
-        150,5,39,0,0,150,151,5,11,0,0,151,152,3,28,14,0,152,153,5,18,0,0,
-        153,154,3,38,19,0,154,155,5,18,0,0,155,156,3,28,14,0,156,157,3,26,
-        13,0,157,23,1,0,0,0,158,160,5,19,0,0,159,161,3,28,14,0,160,159,1,
-        0,0,0,160,161,1,0,0,0,161,25,1,0,0,0,162,166,5,20,0,0,163,165,3,
-        2,1,0,164,163,1,0,0,0,165,168,1,0,0,0,166,164,1,0,0,0,166,167,1,
-        0,0,0,167,169,1,0,0,0,168,166,1,0,0,0,169,170,5,21,0,0,170,27,1,
-        0,0,0,171,172,3,30,15,0,172,29,1,0,0,0,173,174,5,39,0,0,174,175,
-        5,11,0,0,175,178,3,30,15,0,176,178,3,32,16,0,177,173,1,0,0,0,177,
-        176,1,0,0,0,178,31,1,0,0,0,179,185,3,34,17,0,180,181,3,40,20,0,181,
-        182,3,34,17,0,182,184,1,0,0,0,183,180,1,0,0,0,184,187,1,0,0,0,185,
-        183,1,0,0,0,185,186,1,0,0,0,186,33,1,0,0,0,187,185,1,0,0,0,188,196,
-        3,36,18,0,189,192,5,22,0,0,190,192,3,42,21,0,191,189,1,0,0,0,191,
-        190,1,0,0,0,192,193,1,0,0,0,193,195,3,36,18,0,194,191,1,0,0,0,195,
-        198,1,0,0,0,196,194,1,0,0,0,196,197,1,0,0,0,197,35,1,0,0,0,198,196,
-        1,0,0,0,199,201,3,50,25,0,200,199,1,0,0,0,200,201,1,0,0,0,201,211,
-        1,0,0,0,202,212,5,35,0,0,203,212,5,36,0,0,204,212,5,39,0,0,205,212,
-        5,37,0,0,206,212,5,38,0,0,207,208,5,2,0,0,208,209,3,30,15,0,209,
-        210,5,3,0,0,210,212,1,0,0,0,211,202,1,0,0,0,211,203,1,0,0,0,211,
-        204,1,0,0,0,211,205,1,0,0,0,211,206,1,0,0,0,211,207,1,0,0,0,212,
-        37,1,0,0,0,213,220,3,32,16,0,214,215,3,46,23,0,215,216,3,32,16,0,
-        216,221,1,0,0,0,217,218,3,48,24,0,218,219,3,38,19,0,219,221,1,0,
-        0,0,220,214,1,0,0,0,220,217,1,0,0,0,220,221,1,0,0,0,221,39,1,0,0,
-        0,222,223,7,2,0,0,223,41,1,0,0,0,224,225,7,3,0,0,225,43,1,0,0,0,
-        226,227,5,22,0,0,227,45,1,0,0,0,228,229,7,4,0,0,229,47,1,0,0,0,230,
-        231,7,5,0,0,231,49,1,0,0,0,232,233,5,24,0,0,233,51,1,0,0,0,24,55,
-        68,74,84,93,96,103,106,111,120,123,126,129,136,146,160,166,177,185,
-        191,196,200,211,220
+        1,8,3,8,125,8,8,1,8,1,8,1,9,1,9,1,9,5,9,132,8,9,10,9,12,9,135,9,
+        9,1,9,1,9,1,10,1,10,1,10,1,10,1,10,3,10,144,8,10,1,11,1,11,1,11,
+        1,11,1,11,1,11,1,11,1,11,1,11,1,11,1,12,1,12,3,12,158,8,12,1,13,
+        1,13,5,13,162,8,13,10,13,12,13,165,9,13,1,13,1,13,1,14,1,14,1,15,
+        1,15,1,15,1,15,3,15,175,8,15,1,16,1,16,1,16,1,16,5,16,181,8,16,10,
+        16,12,16,184,9,16,1,17,1,17,1,17,3,17,189,8,17,1,17,5,17,192,8,17,
+        10,17,12,17,195,9,17,1,18,3,18,198,8,18,1,18,1,18,1,18,1,18,1,18,
+        1,18,1,18,1,18,1,18,3,18,209,8,18,1,19,1,19,1,19,1,19,1,19,1,19,
+        1,19,3,19,218,8,19,1,20,1,20,1,21,1,21,1,22,1,22,1,23,1,23,1,24,
+        1,24,1,25,1,25,1,25,1,111,0,26,0,2,4,6,8,10,12,14,16,18,20,22,24,
+        26,28,30,32,34,36,38,40,42,44,46,48,50,0,6,1,0,5,8,1,0,9,10,1,0,
+        23,24,1,0,25,26,1,0,27,32,1,0,33,34,240,0,55,1,0,0,0,2,68,1,0,0,
+        0,4,70,1,0,0,0,6,79,1,0,0,0,8,87,1,0,0,0,10,90,1,0,0,0,12,106,1,
+        0,0,0,14,108,1,0,0,0,16,113,1,0,0,0,18,128,1,0,0,0,20,138,1,0,0,
+        0,22,145,1,0,0,0,24,155,1,0,0,0,26,159,1,0,0,0,28,168,1,0,0,0,30,
+        174,1,0,0,0,32,176,1,0,0,0,34,185,1,0,0,0,36,197,1,0,0,0,38,210,
+        1,0,0,0,40,219,1,0,0,0,42,221,1,0,0,0,44,223,1,0,0,0,46,225,1,0,
+        0,0,48,227,1,0,0,0,50,229,1,0,0,0,52,54,3,2,1,0,53,52,1,0,0,0,54,
+        57,1,0,0,0,55,53,1,0,0,0,55,56,1,0,0,0,56,58,1,0,0,0,57,55,1,0,0,
+        0,58,59,5,0,0,1,59,1,1,0,0,0,60,69,3,4,2,0,61,69,3,12,6,0,62,69,
+        3,14,7,0,63,69,3,16,8,0,64,69,3,20,10,0,65,69,3,22,11,0,66,69,3,
+        24,12,0,67,69,3,18,9,0,68,60,1,0,0,0,68,61,1,0,0,0,68,62,1,0,0,0,
+        68,63,1,0,0,0,68,64,1,0,0,0,68,65,1,0,0,0,68,66,1,0,0,0,68,67,1,
+        0,0,0,69,3,1,0,0,0,70,71,5,1,0,0,71,72,5,39,0,0,72,74,5,2,0,0,73,
+        75,3,6,3,0,74,73,1,0,0,0,74,75,1,0,0,0,75,76,1,0,0,0,76,77,5,3,0,
+        0,77,78,3,26,13,0,78,5,1,0,0,0,79,84,3,8,4,0,80,81,5,4,0,0,81,83,
+        3,8,4,0,82,80,1,0,0,0,83,86,1,0,0,0,84,82,1,0,0,0,84,85,1,0,0,0,
+        85,7,1,0,0,0,86,84,1,0,0,0,87,88,3,10,5,0,88,89,5,39,0,0,89,9,1,
+        0,0,0,90,91,7,0,0,0,91,11,1,0,0,0,92,94,7,1,0,0,93,92,1,0,0,0,93,
+        94,1,0,0,0,94,96,1,0,0,0,95,97,3,10,5,0,96,95,1,0,0,0,96,97,1,0,
+        0,0,97,98,1,0,0,0,98,103,5,39,0,0,99,100,5,11,0,0,100,104,3,28,14,
+        0,101,102,5,12,0,0,102,104,3,28,14,0,103,99,1,0,0,0,103,101,1,0,
+        0,0,103,104,1,0,0,0,104,107,1,0,0,0,105,107,3,38,19,0,106,93,1,0,
+        0,0,106,105,1,0,0,0,107,13,1,0,0,0,108,111,5,39,0,0,109,110,5,11,
+        0,0,110,112,3,28,14,0,111,112,1,0,0,0,111,109,1,0,0,0,112,15,1,0,
+        0,0,113,114,5,13,0,0,114,124,5,2,0,0,115,120,3,28,14,0,116,117,5,
+        4,0,0,117,119,3,28,14,0,118,116,1,0,0,0,119,122,1,0,0,0,120,118,
+        1,0,0,0,120,121,1,0,0,0,121,125,1,0,0,0,122,120,1,0,0,0,123,125,
+        5,38,0,0,124,115,1,0,0,0,124,123,1,0,0,0,124,125,1,0,0,0,125,126,
+        1,0,0,0,126,127,5,3,0,0,127,17,1,0,0,0,128,129,5,14,0,0,129,133,
+        5,2,0,0,130,132,5,39,0,0,131,130,1,0,0,0,132,135,1,0,0,0,133,131,
+        1,0,0,0,133,134,1,0,0,0,134,136,1,0,0,0,135,133,1,0,0,0,136,137,
+        5,3,0,0,137,19,1,0,0,0,138,139,5,15,0,0,139,140,3,38,19,0,140,143,
+        3,26,13,0,141,142,5,16,0,0,142,144,3,26,13,0,143,141,1,0,0,0,143,
+        144,1,0,0,0,144,21,1,0,0,0,145,146,5,17,0,0,146,147,5,39,0,0,147,
+        148,5,11,0,0,148,149,3,28,14,0,149,150,5,18,0,0,150,151,3,38,19,
+        0,151,152,5,18,0,0,152,153,3,28,14,0,153,154,3,26,13,0,154,23,1,
+        0,0,0,155,157,5,19,0,0,156,158,3,28,14,0,157,156,1,0,0,0,157,158,
+        1,0,0,0,158,25,1,0,0,0,159,163,5,20,0,0,160,162,3,2,1,0,161,160,
+        1,0,0,0,162,165,1,0,0,0,163,161,1,0,0,0,163,164,1,0,0,0,164,166,
+        1,0,0,0,165,163,1,0,0,0,166,167,5,21,0,0,167,27,1,0,0,0,168,169,
+        3,30,15,0,169,29,1,0,0,0,170,171,5,39,0,0,171,172,5,11,0,0,172,175,
+        3,30,15,0,173,175,3,32,16,0,174,170,1,0,0,0,174,173,1,0,0,0,175,
+        31,1,0,0,0,176,182,3,34,17,0,177,178,3,40,20,0,178,179,3,34,17,0,
+        179,181,1,0,0,0,180,177,1,0,0,0,181,184,1,0,0,0,182,180,1,0,0,0,
+        182,183,1,0,0,0,183,33,1,0,0,0,184,182,1,0,0,0,185,193,3,36,18,0,
+        186,189,5,22,0,0,187,189,3,42,21,0,188,186,1,0,0,0,188,187,1,0,0,
+        0,189,190,1,0,0,0,190,192,3,36,18,0,191,188,1,0,0,0,192,195,1,0,
+        0,0,193,191,1,0,0,0,193,194,1,0,0,0,194,35,1,0,0,0,195,193,1,0,0,
+        0,196,198,3,50,25,0,197,196,1,0,0,0,197,198,1,0,0,0,198,208,1,0,
+        0,0,199,209,5,35,0,0,200,209,5,36,0,0,201,209,5,39,0,0,202,209,5,
+        37,0,0,203,209,5,38,0,0,204,205,5,2,0,0,205,206,3,30,15,0,206,207,
+        5,3,0,0,207,209,1,0,0,0,208,199,1,0,0,0,208,200,1,0,0,0,208,201,
+        1,0,0,0,208,202,1,0,0,0,208,203,1,0,0,0,208,204,1,0,0,0,209,37,1,
+        0,0,0,210,217,3,32,16,0,211,212,3,46,23,0,212,213,3,32,16,0,213,
+        218,1,0,0,0,214,215,3,48,24,0,215,216,3,38,19,0,216,218,1,0,0,0,
+        217,211,1,0,0,0,217,214,1,0,0,0,217,218,1,0,0,0,218,39,1,0,0,0,219,
+        220,7,2,0,0,220,41,1,0,0,0,221,222,7,3,0,0,222,43,1,0,0,0,223,224,
+        5,22,0,0,224,45,1,0,0,0,225,226,7,4,0,0,226,47,1,0,0,0,227,228,7,
+        5,0,0,228,49,1,0,0,0,229,230,5,24,0,0,230,51,1,0,0,0,22,55,68,74,
+        84,93,96,103,106,111,120,124,133,143,157,163,174,182,188,193,197,
+        208,217
     ]
 
 class TovidParser ( Parser ):
@@ -257,7 +256,7 @@ class TovidParser ( Parser ):
             self.state = 55
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while (((_la) & ~0x3f) == 0 and ((1 << _la) & 1065169381358) != 0):
+            while (((_la) & ~0x3f) == 0 and ((1 << _la) & 1065169381350) != 0):
                 self.state = 52
                 self.statement()
                 self.state = 57
@@ -731,7 +730,7 @@ class TovidParser ( Parser ):
                     self.state = 102
                     self.expression()
                     pass
-                elif token in [-1, 1, 2, 3, 5, 6, 7, 8, 9, 10, 13, 14, 15, 17, 19, 21, 24, 35, 36, 37, 38, 39]:
+                elif token in [-1, 1, 2, 5, 6, 7, 8, 9, 10, 13, 14, 15, 17, 19, 21, 24, 35, 36, 37, 38, 39]:
                     pass
                 else:
                     pass
@@ -821,15 +820,15 @@ class TovidParser ( Parser ):
             super().__init__(parent, invokingState)
             self.parser = parser
 
+        def STRING(self):
+            return self.getToken(TovidParser.STRING, 0)
+
         def expression(self, i:int=None):
             if i is None:
                 return self.getTypedRuleContexts(TovidParser.ExpressionContext)
             else:
                 return self.getTypedRuleContext(TovidParser.ExpressionContext,i)
 
-
-        def IDENT(self):
-            return self.getToken(TovidParser.IDENT, 0)
 
         def getRuleIndex(self):
             return TovidParser.RULE_printStatement
@@ -857,53 +856,37 @@ class TovidParser ( Parser ):
         self.enterRule(localctx, 16, self.RULE_printStatement)
         self._la = 0 # Token type
         try:
-            self.state = 129
+            self.enterOuterAlt(localctx, 1)
+            self.state = 113
+            self.match(TovidParser.T__12)
+            self.state = 114
+            self.match(TovidParser.T__1)
+            self.state = 124
             self._errHandler.sync(self)
-            token = self._input.LA(1)
-            if token in [13]:
-                self.enterOuterAlt(localctx, 1)
-                self.state = 113
-                self.match(TovidParser.T__12)
-                self.state = 114
-                self.match(TovidParser.T__1)
-
-                self.state = 123
-                self._errHandler.sync(self)
-                la_ = self._interp.adaptivePredict(self._input,10,self._ctx)
-                if la_ == 1:
-                    self.state = 115
-                    self.expression()
-                    self.state = 120
-                    self._errHandler.sync(self)
-                    _la = self._input.LA(1)
-                    while _la==4:
-                        self.state = 116
-                        self.match(TovidParser.T__3)
-                        self.state = 117
-                        self.expression()
-                        self.state = 122
-                        self._errHandler.sync(self)
-                        _la = self._input.LA(1)
-
-
-
-                pass
-            elif token in [3, 39]:
-                self.enterOuterAlt(localctx, 2)
-                self.state = 126
+            la_ = self._interp.adaptivePredict(self._input,10,self._ctx)
+            if la_ == 1:
+                self.state = 115
+                self.expression()
+                self.state = 120
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if _la==39:
-                    self.state = 125
-                    self.match(TovidParser.IDENT)
+                while _la==4:
+                    self.state = 116
+                    self.match(TovidParser.T__3)
+                    self.state = 117
+                    self.expression()
+                    self.state = 122
+                    self._errHandler.sync(self)
+                    _la = self._input.LA(1)
 
 
-                self.state = 128
-                self.match(TovidParser.T__2)
-                pass
-            else:
-                raise NoViableAltException(self)
+            elif la_ == 2:
+                self.state = 123
+                self.match(TovidParser.STRING)
 
+
+            self.state = 126
+            self.match(TovidParser.T__2)
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)
@@ -953,21 +936,21 @@ class TovidParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 131
+            self.state = 128
             self.match(TovidParser.T__13)
-            self.state = 132
+            self.state = 129
             self.match(TovidParser.T__1)
-            self.state = 136
+            self.state = 133
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while _la==39:
-                self.state = 133
+                self.state = 130
                 self.match(TovidParser.IDENT)
-                self.state = 138
+                self.state = 135
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 139
+            self.state = 136
             self.match(TovidParser.T__2)
         except RecognitionException as re:
             localctx.exception = re
@@ -1023,19 +1006,19 @@ class TovidParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 141
+            self.state = 138
             self.match(TovidParser.T__14)
-            self.state = 142
+            self.state = 139
             self.booleanExpression()
-            self.state = 143
+            self.state = 140
             self.block()
-            self.state = 146
+            self.state = 143
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==16:
-                self.state = 144
+                self.state = 141
                 self.match(TovidParser.T__15)
-                self.state = 145
+                self.state = 142
                 self.block()
 
 
@@ -1099,23 +1082,23 @@ class TovidParser ( Parser ):
         self.enterRule(localctx, 22, self.RULE_forStatement)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 148
+            self.state = 145
             self.match(TovidParser.T__16)
-            self.state = 149
+            self.state = 146
             self.match(TovidParser.IDENT)
-            self.state = 150
+            self.state = 147
             self.match(TovidParser.T__10)
-            self.state = 151
+            self.state = 148
             self.expression()
-            self.state = 152
+            self.state = 149
             self.match(TovidParser.T__17)
-            self.state = 153
+            self.state = 150
             self.booleanExpression()
-            self.state = 154
+            self.state = 151
             self.match(TovidParser.T__17)
-            self.state = 155
+            self.state = 152
             self.expression()
-            self.state = 156
+            self.state = 153
             self.block()
         except RecognitionException as re:
             localctx.exception = re
@@ -1163,13 +1146,13 @@ class TovidParser ( Parser ):
         self.enterRule(localctx, 24, self.RULE_returnStatement)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 158
+            self.state = 155
             self.match(TovidParser.T__18)
-            self.state = 160
+            self.state = 157
             self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,15,self._ctx)
+            la_ = self._interp.adaptivePredict(self._input,13,self._ctx)
             if la_ == 1:
-                self.state = 159
+                self.state = 156
                 self.expression()
 
 
@@ -1223,19 +1206,19 @@ class TovidParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 162
+            self.state = 159
             self.match(TovidParser.T__19)
-            self.state = 166
+            self.state = 163
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while (((_la) & ~0x3f) == 0 and ((1 << _la) & 1065169381358) != 0):
-                self.state = 163
+            while (((_la) & ~0x3f) == 0 and ((1 << _la) & 1065169381350) != 0):
+                self.state = 160
                 self.statement()
-                self.state = 168
+                self.state = 165
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 169
+            self.state = 166
             self.match(TovidParser.T__20)
         except RecognitionException as re:
             localctx.exception = re
@@ -1283,7 +1266,7 @@ class TovidParser ( Parser ):
         self.enterRule(localctx, 28, self.RULE_expression)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 171
+            self.state = 168
             self.assignExpression()
         except RecognitionException as re:
             localctx.exception = re
@@ -1337,22 +1320,22 @@ class TovidParser ( Parser ):
         localctx = TovidParser.AssignExpressionContext(self, self._ctx, self.state)
         self.enterRule(localctx, 30, self.RULE_assignExpression)
         try:
-            self.state = 177
+            self.state = 174
             self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,17,self._ctx)
+            la_ = self._interp.adaptivePredict(self._input,15,self._ctx)
             if la_ == 1:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 173
+                self.state = 170
                 self.match(TovidParser.IDENT)
-                self.state = 174
+                self.state = 171
                 self.match(TovidParser.T__10)
-                self.state = 175
+                self.state = 172
                 self.assignExpression()
                 pass
 
             elif la_ == 2:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 176
+                self.state = 173
                 self.arithmExpression()
                 pass
 
@@ -1413,20 +1396,20 @@ class TovidParser ( Parser ):
         self.enterRule(localctx, 32, self.RULE_arithmExpression)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 179
+            self.state = 176
             self.term()
-            self.state = 185
+            self.state = 182
             self._errHandler.sync(self)
-            _alt = self._interp.adaptivePredict(self._input,18,self._ctx)
+            _alt = self._interp.adaptivePredict(self._input,16,self._ctx)
             while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
                 if _alt==1:
-                    self.state = 180
+                    self.state = 177
                     self.addOp()
-                    self.state = 181
+                    self.state = 178
                     self.term() 
-                self.state = 187
+                self.state = 184
                 self._errHandler.sync(self)
-                _alt = self._interp.adaptivePredict(self._input,18,self._ctx)
+                _alt = self._interp.adaptivePredict(self._input,16,self._ctx)
 
         except RecognitionException as re:
             localctx.exception = re
@@ -1485,29 +1468,29 @@ class TovidParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 188
+            self.state = 185
             self.factor()
-            self.state = 196
+            self.state = 193
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while (((_la) & ~0x3f) == 0 and ((1 << _la) & 104857600) != 0):
-                self.state = 191
+                self.state = 188
                 self._errHandler.sync(self)
                 token = self._input.LA(1)
                 if token in [22]:
-                    self.state = 189
+                    self.state = 186
                     self.match(TovidParser.T__21)
                     pass
                 elif token in [25, 26]:
-                    self.state = 190
+                    self.state = 187
                     self.multOp()
                     pass
                 else:
                     raise NoViableAltException(self)
 
-                self.state = 193
+                self.state = 190
                 self.factor()
-                self.state = 198
+                self.state = 195
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
@@ -1577,43 +1560,43 @@ class TovidParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 200
+            self.state = 197
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==24:
-                self.state = 199
+                self.state = 196
                 self.unaryOp()
 
 
-            self.state = 211
+            self.state = 208
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [35]:
-                self.state = 202
+                self.state = 199
                 self.match(TovidParser.INT)
                 pass
             elif token in [36]:
-                self.state = 203
+                self.state = 200
                 self.match(TovidParser.FLOAT)
                 pass
             elif token in [39]:
-                self.state = 204
+                self.state = 201
                 self.match(TovidParser.IDENT)
                 pass
             elif token in [37]:
-                self.state = 205
+                self.state = 202
                 self.match(TovidParser.BOOLEAN)
                 pass
             elif token in [38]:
-                self.state = 206
+                self.state = 203
                 self.match(TovidParser.STRING)
                 pass
             elif token in [2]:
-                self.state = 207
+                self.state = 204
                 self.match(TovidParser.T__1)
-                self.state = 208
+                self.state = 205
                 self.assignExpression()
-                self.state = 209
+                self.state = 206
                 self.match(TovidParser.T__2)
                 pass
             else:
@@ -1680,24 +1663,24 @@ class TovidParser ( Parser ):
         self.enterRule(localctx, 38, self.RULE_booleanExpression)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 213
+            self.state = 210
             self.arithmExpression()
-            self.state = 220
+            self.state = 217
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [27, 28, 29, 30, 31, 32]:
-                self.state = 214
+                self.state = 211
                 self.compareOp()
-                self.state = 215
+                self.state = 212
                 self.arithmExpression()
                 pass
             elif token in [33, 34]:
-                self.state = 217
+                self.state = 214
                 self.logicOp()
-                self.state = 218
+                self.state = 215
                 self.booleanExpression()
                 pass
-            elif token in [-1, 1, 2, 3, 5, 6, 7, 8, 9, 10, 13, 14, 15, 17, 18, 19, 20, 21, 24, 35, 36, 37, 38, 39]:
+            elif token in [-1, 1, 2, 5, 6, 7, 8, 9, 10, 13, 14, 15, 17, 18, 19, 20, 21, 24, 35, 36, 37, 38, 39]:
                 pass
             else:
                 pass
@@ -1745,7 +1728,7 @@ class TovidParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 222
+            self.state = 219
             _la = self._input.LA(1)
             if not(_la==23 or _la==24):
                 self._errHandler.recoverInline(self)
@@ -1796,7 +1779,7 @@ class TovidParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 224
+            self.state = 221
             _la = self._input.LA(1)
             if not(_la==25 or _la==26):
                 self._errHandler.recoverInline(self)
@@ -1846,7 +1829,7 @@ class TovidParser ( Parser ):
         self.enterRule(localctx, 44, self.RULE_powOp)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 226
+            self.state = 223
             self.match(TovidParser.T__21)
         except RecognitionException as re:
             localctx.exception = re
@@ -1892,7 +1875,7 @@ class TovidParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 228
+            self.state = 225
             _la = self._input.LA(1)
             if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 8455716864) != 0)):
                 self._errHandler.recoverInline(self)
@@ -1943,7 +1926,7 @@ class TovidParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 230
+            self.state = 227
             _la = self._input.LA(1)
             if not(_la==33 or _la==34):
                 self._errHandler.recoverInline(self)
@@ -1993,7 +1976,7 @@ class TovidParser ( Parser ):
         self.enterRule(localctx, 50, self.RULE_unaryOp)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 232
+            self.state = 229
             self.match(TovidParser.T__23)
         except RecognitionException as re:
             localctx.exception = re
