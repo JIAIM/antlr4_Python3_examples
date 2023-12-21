@@ -1,0 +1,69 @@
+func sum1() {
+	const float h := 10.1 + 5.2
+	return h
+}
+// some
+func main() {
+
+	var int a := -2
+	a := a + 3
+
+	var float b := true
+	b := -b
+
+    var string s := "f"
+
+    var float f
+	var int k := 10
+	var string str := "yesyes"
+	const int five := 5
+	const string done := "Done!"
+	scanf(str)
+	f := a^(2^3) + 3 / 2
+	b := (a+a) < five
+	print(a, b, f, str)
+
+    print(done)
+}
+
+/* hello its a comment
+yes yesd
+yefff
+*/
+// hellooo
+
+func sum2() {
+    // a := 15
+    if a == 15 {
+        var int yes := 10
+        print(yes)
+    }
+    else {
+        var int no := 7
+        print(no)
+        if a + a >= a * 3 {
+            if a > 2 {
+                return 8
+            }
+            else {
+                return 2
+            }
+        }
+        return 5
+    }
+    return a
+}
+
+for m := 10; m >= 1 ; m := m - 1 {
+    if m > 1 {
+        print("Not yet!")
+    }
+    else {
+        print("done")
+    }
+    print(m)
+}
+
+for i := 0; i < 11 ; i := i + 1 {
+    print(i)
+}
