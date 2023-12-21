@@ -99,7 +99,7 @@ def beautify_lisp_string(in_string):
             out_string += in_string[i]
     return out_string
     
-file_name = 'test1.expr'
+file_name = 'test.tovid'
 input_stream = FileStream(file_name)
 lexer = SimpleExpr1Lexer(input_stream)
 print('input_stream:')
